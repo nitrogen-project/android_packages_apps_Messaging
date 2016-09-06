@@ -17,6 +17,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Swipe to delete -->
-    <string name="swipe_deletes_conversation_text">Свайп для удаления диалога</string>
+    <string name="swipe_right_deletes_conversation_text">Свайп вправо для удаления диалога</string>
 
 </resources>
