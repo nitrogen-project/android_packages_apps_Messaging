@@ -122,7 +122,7 @@ public class BugleActionToasts {
             @Override
             public void run() {
                 Toast.makeText(getApplicationContext(),
-                        getApplicationContext().getString(messageResId), Toast.LENGTH_LONG).show();
+                        getApplicationContext().getString(messageResId), Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -131,7 +131,7 @@ public class BugleActionToasts {
         ThreadUtil.getMainThreadHandler().post(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -159,7 +159,7 @@ public class BugleActionToasts {
                         block
                                 ? R.string.update_destination_blocked
                                 : R.string.update_destination_unblocked,
-                        Toast.LENGTH_LONG
+                        Toast.LENGTH_SHORT
                 ).show();
             }
         }
