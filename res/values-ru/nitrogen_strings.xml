@@ -19,4 +19,7 @@
     <!-- Swipe to delete -->
     <string name="swipe_right_deletes_conversation_text">Свайп вправо для удаления диалога</string>
 
+    <!-- Shortcuts -->
+    <string name="shortcuts_compose_new">Новое сообщение</string>
+
 </resources>

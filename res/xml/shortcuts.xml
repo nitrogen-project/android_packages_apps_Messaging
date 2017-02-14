@@ -1,0 +1,15 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/shortcut_compose_new"
+        android:shortcutDisabledMessage="@string/shortcuts_compose_new"
+        android:shortcutId="shortcut1"
+        android:shortcutLongLabel="@string/shortcuts_compose_new"
+        android:shortcutShortLabel="@string/shortcuts_compose_new">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.android.messaging.ui.conversation.ConversationActivity"
+            android:targetPackage="com.android.messaging" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
