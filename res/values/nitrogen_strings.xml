@@ -19,4 +19,7 @@
     <!-- Swipe to delete -->
     <string name="swipe_right_deletes_conversation_text">Swipe right deletes conversation</string>
 
+    <!-- Shortcuts -->
+    <string name="shortcuts_compose_new">New message</string>
+
 </resources>
