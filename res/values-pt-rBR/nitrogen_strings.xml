@@ -26,4 +26,6 @@
   <string name="mediapicker_audio_list_item_selected_content_description">O áudio está selecionado.</string>
   <string name="mediapicker_audio_list_item_unselected_content_description">O áudio está desmarcado.</string>
   <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d </xliff:g> selecionado</string>
+  <!-- Shortcuts -->
+  <string name="shortcuts_compose_new">Nova mensagem</string>
 </resources>
