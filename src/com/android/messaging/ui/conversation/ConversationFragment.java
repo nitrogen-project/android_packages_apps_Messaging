@@ -810,7 +810,7 @@ public class ConversationFragment extends Fragment implements ConversationDataLi
 
             case R.id.action_delete:
                 if (isReadyForAction()) {
-                    new AlertDialog.Builder(getActivity())
+                    new AlertDialog.Builder(getActivity(), R.style.BugleThemeDialog)
                             .setTitle(getResources().getQuantityString(
                                     R.plurals.delete_conversations_confirmation_dialog_title, 1))
                             .setPositiveButton(R.string.delete_conversation_confirmation_button,
@@ -1133,7 +1133,8 @@ public class ConversationFragment extends Fragment implements ConversationDataLi
 
     void deleteMessage(final String messageId) {
         if (isReadyForAction()) {
-            final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity())
+            final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity(), 
+                    R.style.BugleThemeDialog)
                     .setTitle(R.string.delete_message_confirmation_dialog_title)
                     .setMessage(R.string.delete_message_confirmation_dialog_text)
                     .setPositiveButton(R.string.delete_message_confirmation_button,
@@ -1494,7 +1495,7 @@ public class ConversationFragment extends Fragment implements ConversationDataLi
             final ComposeMessageView composeMessageView, final String conversationId,
             final Activity activity, final boolean tooManyVideos) {
         final AlertDialog.Builder builder =
-                new AlertDialog.Builder(activity)
+                new AlertDialog.Builder(activity, R.style.BugleThemeDialog)
                     .setTitle(R.string.mms_attachment_limit_reached);
 
         if (sending) {
