@@ -55,9 +55,7 @@
         <item name="android:background">@color/contextual_action_bar_background_color</item>
     </style>
 
-    <style name="PopupMenuStyleAppCompat" parent="Widget.AppCompat.PopupMenu">
-        <item name="android:popupBackground">@color/primary_color</item>
-        <item name="android:background">@color/primary_color</item>
+    <style name="PopupMenuStyleAppCompat" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
     </style>
 
     <style name="BugleTheme.ConversationActivity"
